@@ -1,2 +1,2 @@
 # cocktail-recipe
-A website that shows cocktails pictures and the recipe to make your favourite.
+A website that shows cocktail pictures and the recipe to make your favourite.
