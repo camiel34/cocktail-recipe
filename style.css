@@ -7,8 +7,50 @@
     color:purple;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+html body{
+      height: 100%;
+      margin: 0px;
 
-#bg{
-    background-image: url();
 }
-    
+
+h1{
+  font-size: 1cm;
+  margin: 0;
+  padding: 0.5cm;
+  color: blueviolet;
+}
+panel{
+    width: 50%;
+    height: auto;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    background-color: gold;
+}
+
+#bg *{ 
+    background-image: url("cocktail.jpg");
+    background url ("cocktail.jpg")
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+}
+
+#cocktail list{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-bottom: 2cm ;
+
+}
+
+#image-container{
+   display: none;
+
+
+}
+
+
