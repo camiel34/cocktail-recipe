@@ -6,26 +6,40 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css">
         <title>Cocktails</title>
-        <meta-charset="UTF-8">
+    
 
     </head>
     <body>
-        <div id="bg">
+         <h1>It's Cocktail Time!</h1>
 
-        <div class="panel">
-            
-            <h1>It's Cocktail Time!</h1>
-         <div>
-            <p> Do you need a nice refreshing Cocktail right now? Choose your fave from the list below.</p>
-            <select name="cocktail" id="ingredients list"></select>
-            <input type="button" value="Enter here">
-          </div>
-          <div class="panel">
-            <img src="cocktail.jpg" alt="">
+        <div class="search-container">
+            <input
+              type="text"
+              id="searchinput"
+              placeholder="Search for a cocktail..."
+              oninput="getSuggestions()"
+           />
+            <button onclick="searchCocktail()">Search</button>
          </div>
+
+            <p>If you enjoy the wonderful world of cocktail concoctions, this is the best place to be. 
+               You can learn how to make different cocktails to impress your friends or even yourself with your
+               new found skill, by the end you'll be a pro, get ready to learn!
+            </p>
+            
+          </div>
+          <div class="random-button">
+            <button onclick="generaterandomCocktail()">Random Cocktail</button>
+          </div>
+
+          <div id="cocktailContainer"></div>
+
+            
+            <script src="cocktails.js"></script>
+         </div>
+        
     </body>
 </html>
-<script src="cocktail.js"></script>
