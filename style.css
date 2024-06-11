@@ -26,10 +26,10 @@ h1{
  display: flex;
  flex-direction: column;
  align-items: centre;
- align-bottom: 30px;
+ align-content: 30px;
  margin-bottom: 30px;
  padding: 20px;
- background-color:
+ background-color: gold;
  border-radius: 10px
 }
 
@@ -50,12 +50,12 @@ h1{
 }
 
 .cocktail-card{
- color:
+ color: deeppink;
  margin-bottom: 10px;
 }
 
 .cocktail-card {
- margin-bottom: 5px:
+ margin-bottom: 5px;
 }
 
 .cocktail-card .ingredients {
