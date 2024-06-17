@@ -6,13 +6,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
+        <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
         <title>Cocktails</title>
     
 
     </head>
     <body>
+      <div id ="bg">
+
+      </div>
          <h1>It's Cocktail Time!</h1>
 
         <div class="search-container">
@@ -21,7 +24,8 @@
               id="searchinput"
               placeholder="Search for a cocktail..."
               oninput="getSuggestions()"
-           />
+              />
+          
             <button onclick="searchCocktail()">Search</button>
          </div>
 
@@ -35,11 +39,8 @@
             <button onclick="generaterandomCocktail()">Random Cocktail</button>
           </div>
 
-          <div id="cocktailContainer"></div>
-
+         
             
-            <script src="cocktails.js"></script>
-         </div>
-        
-    </body>
+      </body>
+
 </html>

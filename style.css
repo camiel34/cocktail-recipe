@@ -1,18 +1,30 @@
 /*
   Author: Camiel
   Styling for the Cocktail website.
+
   */
 
-  body {
-    background-color:rgba(247, 91, 153, 0.886);
-    color:purple;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    Padding: 20px;
+ 
+  
+body { 
+  background-color:rgba(72, 203, 65, 0.886);
+    color:rgb(154, 22, 148);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    Padding 20px;
+    min-height: 100%;
 }
+
+.bg {
+   background-image:url('cocktail_image.jpg');
+   height:100%; 
+   background-position: center;
+
+
 
 html body{
       height: 50%;
       margin: 6px;
+
 
 }
 
@@ -22,7 +34,7 @@ h1{
   color:purple;
 }
  
-.cocktail-card {
+ cocktail-card {
  display: flex;
  flex-direction: column;
  align-items: centre;
@@ -33,51 +45,42 @@ h1{
  border-radius: 10px
 }
 
-#bg *{ 
-    background-image: url("");
-    background : ("");
-    height: auto;
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover;
-}
-
-.cocktail-img {
+ .cocktail-img {
   width: 200px;
   height: 200px;
   border-radius: 50px;
   margin-bottom: 10px;
 }
 
-.cocktail-card{
+ cocktail-card{
  color: deeppink;
  margin-bottom: 10px;
 }
 
-.cocktail-card {
+ cocktail-card {
  margin-bottom: 5px;
 }
 
-.cocktail-card .ingredients {
+ cocktail-card .ingredients {
   font-weight: bold;
 }
 
-.cocktail-card .instructions {
+ cocktail-card .instructions {
   margin-top: 10px;
 }
 
-.search-container {
+ search-container {
 display: flex;
 justify-content: center;
 margin-bottom: 20px;
 }
 
-.search-container input[type="text"] { 
+ search-container input[type="text"] { 
 padding: 5px;
 font-size: 16px;
 }
 
-.search-container button {
+  search-container button {
   padding: 5px; 
   background-color:purple;
   color: azure;
@@ -89,11 +92,11 @@ font-size: 16px;
   box-shadow: 0px 2px 4px; color: #000;
 }
 
-  .search-container button:hover {
+  search-container button:hover {
   background-color: gold;
   }
 
-  .random-botton button {
+   random-botton button {
     padding: 10px;
   }
 
@@ -108,8 +111,8 @@ font-size: 16px;
    box-shadow: 0px, 2px, 4px #000;
 }
 
-.random-botton button:hover {
+ random-botton button:hover {
   background-color: rgb(88, 15, 156);
 }
- 
 
+}
